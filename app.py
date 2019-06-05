@@ -82,7 +82,11 @@ def deal_chessboard(qipan, qipanyu, hang=0, lie=0):
 
 
 q, qy = generate(15)
+print("生成初始棋盘：")
 initQ(q, qy)
+
 print_chessboard(q)
-print()
+print("解如下：")
+
 deal_chessboard(q, qy)
+print()
